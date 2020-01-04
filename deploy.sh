@@ -1,4 +1,4 @@
-parcel build src/index.html --public-url ./canvas-1/ &&
+yarn build &&
 git checkout gh-pages &&
 rm -rf src tests css js img public *.json *.ico *.js *.css *.html *.png *.jpg *.gif *.jpeg *.lock *.sh *.md &&
 mv dist/* ./ &&
