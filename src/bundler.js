@@ -11,7 +11,7 @@ const ifInTouch = "ontouchstart" in document
 
 ctx.fillStyle = 'black'
 ctx.strokeStyle = 'black'
-ctx.lineWidth = 20
+ctx.lineWidth = 10
 ctx.lineCap = 'round'
 
 if (!ifInTouch) {

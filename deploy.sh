@@ -1,4 +1,4 @@
-yarn build &&
+parcel build src/index.html &&
 git checkout gh-pages &&
 rm -rf src tests css js img public *.json *.ico *.js *.css *.html *.png *.jpg *.gif *.jpeg *.lock *.sh *.md &&
 mv dist/* ./ &&
